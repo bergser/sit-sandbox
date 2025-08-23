@@ -1,8 +1,13 @@
-import { defineNitroConfig } from "nitropack/config"
+import { defineNitroConfig } from "nitropack/config";
+import { LogLevels } from "consola";
 
 // https://nitro.build/config
 export default defineNitroConfig({
   compatibilityDate: "latest",
   srcDir: "server",
-  imports: false
+  runtimeConfig: {
+    clientId: "",
+    clientSecret: "",
+    logLevel: LogLevels.info,
+  },
 });
