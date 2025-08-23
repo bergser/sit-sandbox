@@ -1,6 +1,7 @@
 {
-  "name": "nitro-app",
+  "name": "iam-generic-api",
   "private": true,
+  "version": "0.0.1",
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev"
