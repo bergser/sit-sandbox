@@ -9,5 +9,6 @@ export default defineNitroConfig({
     clientId: "",
     clientSecret: "",
     logLevel: LogLevels.info,
+    playground: ""
   },
 });
